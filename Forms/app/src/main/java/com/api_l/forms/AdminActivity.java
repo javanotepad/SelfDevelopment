@@ -39,6 +39,7 @@ import retrofit2.Response;
 public class AdminActivity extends AppCompatActivity implements View.OnClickListener {
     private UserService userServiceService;
     private ProgressBar progressBar;
+
     private ListView userListView;
     private Button searchBtn;
     private EditText searchTxt;
