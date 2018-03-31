@@ -59,7 +59,7 @@ public class DomainsActivity extends AppCompatActivity implements View.OnClickLi
        // Toast.makeText(getApplicationContext(),"Form iD"+formId,Toast.LENGTH_LONG).show();
        listOfDomains = (ListView) findViewById(R.id.domainsList);
 //        listOfDomains.setOnItemClickListener(this);
-
+    
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.DomainsTaqeemFab);
         if(formId == 4 || formId == 3){
 
